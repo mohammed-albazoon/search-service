@@ -20,11 +20,11 @@ Implemented in the latest stable version of Python.
 Setup and Installation
 
 Clone the repository:
-git clone <repository-url>
+git clone 'repository-url'
 
 
 Navigate to the project directory on your Terminal:
-cd <project-directory>
+cd 'project-directory'
 
 
 Activate the env:
