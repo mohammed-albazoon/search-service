@@ -38,6 +38,18 @@ bash start.sh
 Bonus Goals:
 Design Notes: In the README, we discuss various alternative approaches considered for building the search engine.
 
+The approach I used is a lightweight, embedded search engine built on SQLite with Full-Text Search (FTS5). In other words, it’s often referred to as an "embedded FTS search" approach.
+
+Alternative Approaches:
+
+1. Elasticsearch/OpenSearch: More scalable for large datasets, offers advanced search features and analytics, but requires more infrastructure and maintenance.
+
+2. PostgreSQL with Full-Text Search: Offers robust search capabilities with built-in indexing, but can be heavier to set up and manage compared to SQLite.
+
+3. Custom Inverted Index: Building a custom inverted index in memory can give you fine-grained control but can be complex and memory-intensive.
+
+   
+
 Data Insights: We explain strategies to optimize performance and reduce latency to 30ms.
 
 Submission:
